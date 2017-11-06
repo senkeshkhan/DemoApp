@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textColor="@android:color/white"
+        android:text="LogIn"
+        android:textSize="35dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:hint="   Username"
+            android:inputType="textPersonName"
+            android:textColor="#cccccc"
+            android:textSize="20sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:hint="   Passwoard"
+            android:inputType="textPassword"
+            android:textColor="#cccccc"
+            android:textSize="20sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"
+        android:text="Forgot Password?"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+
+    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+        android:id="@+id/progressButtonNoPadding"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/circular_border_shape"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        app:spinning_bar_color="@android:color/white"
+        app:spinning_bar_padding="10dp"
+        app:spinning_bar_width="4dp"
+        app:initialCornerAngle="50dp"
+        app:finalCornerAngle="50dp"
+        android:text="login"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"/>
+
+   <!-- <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#79a209df"
+        android:text="Log In"
+        android:textColor="#cccccc" />-->
+
+</LinearLayout>

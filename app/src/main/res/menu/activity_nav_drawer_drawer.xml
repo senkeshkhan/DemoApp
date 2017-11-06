@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bb_menu_folder"
+        android:icon="@drawable/ic_recents"
+        android:title="Folder" />
+    <item
+        android:id="@+id/bb_menu_scan"
+        android:icon="@drawable/ic_favorites"
+        android:title="Scan" />
+    <item
+        android:id="@+id/bb_menu_profile"
+        android:icon="@drawable/ic_nearby"
+        android:title="Profile" />
+    <item
+        android:id="@+id/bb_menu_settings"
+        android:icon="@drawable/ic_friends"
+        android:title="Settings" />
+
+
+
+</menu>

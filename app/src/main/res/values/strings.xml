@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">File Cabinate</string>
+
+
+    <string name="fragment_home_title">Home fragment</string>
+    <string name="fragment_car_title">Car fragment</string>
+    <string name="fragment_bike_title">Bike fragment</string>
+    <string name="fragment_walk_title">Walk fragment</string>
+
+
+</resources>
